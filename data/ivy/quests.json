@@ -1,0 +1,76 @@
+{
+  "quests": [
+    {
+      "id": "wakening-the-grid",
+      "status": "active",
+      "objectives": [
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "reduced-to-rubble",
+      "status": "active",
+      "objectives": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "cold-storage",
+      "status": "active",
+      "objectives": [
+        false,
+        false
+      ],
+      "notes": ""
+    },
+    {
+      "id": "medical-merchandise",
+      "status": "active",
+      "objectives": [
+        {
+          "done": true,
+          "progress": {
+            "current": 2,
+            "total": 2
+          }
+        },
+        {
+          "done": false,
+          "progress": {
+            "current": 0,
+            "total": 3
+          }
+        },
+        {
+          "done": false,
+          "progress": {
+            "current": 0,
+            "total": 2
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "what-we-left-behind",
+      "status": "active",
+      "objectives": [
+        {
+          "done": false,
+          "progress": {
+            "current": 0,
+            "total": 2
+          }
+        },
+        false,
+        true
+      ],
+      "notes": ""
+    }
+  ]
+}

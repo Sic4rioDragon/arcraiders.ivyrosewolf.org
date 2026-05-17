@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Achievements | IvyRoseWolf ARC Raiders</title>
+
+  <link rel="icon" type="image/png" href="https://sic4riodragon.uk/assets/favicon.png" />
+  <link rel="stylesheet" href="https://arcraiders.sic4riodragon.uk/assets/css/site.css" />
+</head>
+<body
+  data-page="achievements"
+  data-account="ivy"
+  data-base-path=""
+  data-data-root="../"
+  data-core-root="https://arcraiders.sic4riodragon.uk/"
+>
+  <div class="bg"></div>
+
+  <header class="topbar">
+    <a class="brand" href="/">
+      <img class="brand-logo" src="https://arcraiders.sic4riodragon.uk/assets/arcraider_logo.png" alt="ARC Raiders">
+      <span><strong>ARC Raiders</strong><small>Ivy's tracker</small></span>
+    </a>
+
+    <nav class="nav">
+      <a href="/">Overview</a>
+      <a href="/quests/">Quests</a>
+      <a href="/logbook/">Logbook</a>
+      <a href="/projects/">Projects</a>
+      <a class="active" href="/achievements/">Achievements</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="page-head">
+      <p class="eyebrow">Ivy</p>
+      <h1>Achievements</h1>
+    </section>
+
+    <section class="achievement-summary card">
+      <div>
+        <h2 id="ach-summary-title">0 / 0</h2>
+        <p id="ach-summary-text">0%</p>
+      </div>
+      <div class="progress-shell">
+        <div id="ach-progress" class="progress-fill"></div>
+      </div>
+    </section>
+
+    <section class="tools card">
+      <input id="achievement-search" type="search" placeholder="Search achievements..." />
+      <select id="achievement-filter">
+        <option value="locked" selected>Locked</option>
+        <option value="all">All achievements</option>
+        <option value="earned">Earned</option>
+      </select>
+    </section>
+
+    <section id="achievement-list" class="achievement-list"></section>
+  </main>
+
+  <script src="https://arcraiders.sic4riodragon.uk/assets/js/main.js"></script>
+</body>
+</html>

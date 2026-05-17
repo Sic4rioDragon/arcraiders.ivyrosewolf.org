@@ -1,0 +1,5 @@
+*.zip
+/clone
+/tools
+data/quests.backup.json
+data/*/quests.full-backup.json
